@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме – Боднар Вікторія</title>
+
+    <!-- Підключення шрифту Zefani -->
+    <link href="https://fonts.googleapis.com/css2?family=Zefani&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        table {
+            width: 800px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: rgba(99, 117, 83, 0.85);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        tr:first-child {
+            background-color: rgb(181, 193, 136);
+            color: rgb(100, 119, 36);
+            font-weight: bold;
+        }
+
+        a {
+            color: rgba(99, 117, 83, 0.85);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: rgb(100, 119, 36);
+            text-align: center;
+        }
+
+        .section {
+            background: rgb(181, 193, 136);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: rgb(50, 60, 20);
+        }
+
+        ul {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .mini-table {
+            width: 100%;
+            background: rgba(255,255,255,0.6);
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .mini-table td {
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            padding: 10px;
+        }
+
+        .portfolio-img {
+            display: block;
+            width: 250px;
+            border-radius: 10px;
+            margin: 15px auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        /* Логотип шрифтом Zefani */
+        .logo {
+            font-family: 'Zefani', cursive;
+            font-size: 28px;
+            font-weight: bold;
+            color: #647724;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+    <tr>
+        <td><span class="logo">toria</span></td>
+
+        <td>
+            <ul style="list-style:none; margin:0; padding:0; display:flex; gap:20px;">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="resume.html">Резюме</a></li>
+                <li><a href="portfolio.html">Портфоліо</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="form-contact.html">Форма зворотного зв’язку</a></li>
+            </ul>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td colspan="2">
+
+            <div class="section">
+                <h2>Професійні вміння</h2>
+                <ul>
+                    <li>HTML / CSS — створення адаптивних вебсторінок</li>
+                    <li>JavaScript — базові скрипти та інтерактивність</li>
+                    <li>Робота з графічними редакторами (Figma, Photoshop)</li>
+                    <li>Створення презентацій та технічної документації</li>
+                    <li>Навички роботи з комп'ютерним обладнанням</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Досвід роботи</h2>
+                <table class="mini-table">
+                    <tr>
+                        <td><strong>2023–2024</strong></td>
+                        <td>Помічник веброзробника — створення структури сайту, наповнення контентом</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2022–2023</strong></td>
+                        <td>Графічний дизайнер — оформлення макетів та банерів</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2>Освіта</h2>
+                <table class="mini-table">
+                    <tr>
+                        <td><strong>2024–2028</strong></td>
+                        <td>НУХТ — спеціальність "Комп’ютерна інженерія"</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2>Портфоліо</h2>
+
+                <p style="text-align:center;">Приклад роботи:</p>
+
+                <a href="portfolio.html">
+                    <img src="voy.png" alt="Портфоліо" class="portfolio-img">
+                </a>
+
+            </div>
+
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>

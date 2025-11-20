@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфоліо – Боднар Вікторія</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Підключення шрифту Zefani -->
+    <link href="https://fonts.googleapis.com/css2?family=Zefani&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("background.jpg"); 
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #000;
+            margin: 40px;
+        }
+        table {
+            width: 800px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: rgba(99, 117, 83, 0.85);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+        td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        tr:first-child, tr:last-child {
+            background-color: rgb(181, 193, 136);
+            color: rgb(100, 119, 36);
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            color: rgba(99, 117, 83, 0.85);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            background-color: rgb(181, 193, 136);
+        }
+        img {
+            border-radius: 10px;
+            margin: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: rgb(100, 119, 36);
+        }
+        .social-icons a {
+            color: rgba(0, 0, 0, 0.85);
+            margin-right: 15px;
+            font-size: 24px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #000000;
+        }
+
+        /* Логотип шрифтом Zefani */
+        .logo {
+            font-family: 'Zefani', cursive;
+            font-size: 28px;
+            font-weight: bold;
+            color: #647724;
+        }
+        .portfolio-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+
+    <!-- Меню -->
+    <tr height="100px">
+        <td><span class="logo">toria</span></td>
+        <td>
+            <ul style="list-style-type: none; padding-left: 0; margin: 0; display: flex; gap: 20px;">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="resume.html">Резюме</a></li>
+                <li><a href="portfolio.html">Портфоліо</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="form-contact.html">Форма зворотного зв'язку</a></li>
+            </ul>
+        </td>
+    </tr>
+
+    <!-- Портфоліо -->
+    <tr>
+        <td colspan="2">
+            <h2>Моє портфоліо</h2>
+            <table>
+                <tr>
+                    <td align="center">
+                        <a href="https://www.figma.com/design/dChuOLc6AANLiAnEvy5GJ2/Untitled?node-id=0-1&p=f&t=46PULffcSrLt3QWi-0" target="_blank">
+                            <img src="figma.png" alt="Макет сайту в Figma" class="portfolio-img">
+                        </a>
+                    </td>
+                    <td align="center">
+                        <a href="https://aktoria.jimdosite.com/" target="_blank">
+                            <img src="landing.png" alt="Landing Page" class="portfolio-img">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <img src="hiiii.png" alt="Landing Page" class="portfolio-img">
+                    </td>
+                    <td align="center">
+                        <img src="teee.png" alt="Landing Page" class="portfolio-img">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- Футер -->
+    <tr height="100px">
+        <td>
+            <strong>Соціальні мережі:</strong><br><br>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/viktoria." target="_blank" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/zivy_soyl" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/Gentle_V" target="_blank" title="Telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </td>
+        <td>
+            <strong>Адреса:</strong><br><br>
+            м. Вінниця, Україна<br>
+            Email: example@gmail.com<br>
+            Телефон: +380 68 331 64 75
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

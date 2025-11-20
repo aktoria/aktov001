@@ -1,0 +1,138 @@
+<<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма зворотного зв'язку – Боднар Вікторія</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Підключення шрифту Zefani -->
+    <link href="https://fonts.googleapis.com/css2?family=Zefani&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("background.jpg"); 
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #000;
+            margin: 40px;
+        }
+
+        table {
+            width: 800px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: rgba(99, 117, 83, 0.85);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        tr:first-child {
+            background-color: rgb(181, 193, 136);
+            color: rgb(100, 119, 36);
+            font-weight: bold;
+        }
+
+        a {
+            color: rgba(99, 117, 83, 0.85);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form {
+            background-color: rgb(181, 193, 136);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .contact-form label {
+            font-weight: bold;
+            color: rgb(100, 119, 36);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            background: rgba(99, 117, 83, 0.85);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background: rgb(100,119,36);
+        }
+
+        /* Логотип шрифтом Zefani */
+        .logo {
+            font-family: 'Zefani', cursive;
+            font-size: 28px;
+            font-weight: bold;
+            color: #647724;
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <tr>
+        <td><span class="logo">toria</span></td>
+        <td>
+            <ul style="list-style:none; margin:0; padding:0; display:flex; gap:20px;">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="resume.html">Резюме</a></li>
+                <li><a href="portfolio.html">Портфоліо</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="form-contact.html">Форма зворотного зв'язку</a></li>
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <div class="contact-form">
+                <h2 style="text-align:center; color:rgb(100,119,36);">Зворотній зв’язок</h2>
+
+                <form action="#" method="post">
+                    <label for="name">Ваше ім’я *</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Ваш email *</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Тема повідомлення *</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Текст повідомлення *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Відправити</button>
+                </form>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
